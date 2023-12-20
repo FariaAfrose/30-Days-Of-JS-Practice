@@ -12,7 +12,13 @@ console.log(charInIs)
  let lastItem= items.length -1
  lastItem=items[lastItem]
  console.log(lastItem)
- 
+
+ //replacing element - splice
+ const items2=['A','B','C','D']
+
+items2.splice(2,0,'new Item1' ,'new Item2')
+console.log(items2)
+
  //concatenating array
  const firstList =[1,2,3]
  const secondList=[4,5,6]
