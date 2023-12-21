@@ -99,4 +99,7 @@ const arrayforCountry=[]
     arrayforCountry.push(variable.length)
  }
  console.log(arrayforCountry)
- //
+ //find if countries containing 'land'
+//  const findLand=[]
+ const countrys= countries.filter(countries=>countries.includes('land'))
+ console.log(countrys)
