@@ -67,3 +67,12 @@ for(let i =0;i<6;i++){
     randomId +=char.charAt(randomChar)
 
 }console.log(randomId)
+//any number of char random id..
+const char2=prompt('Put charecters: ')
+const length=prompt('enter length ')
+let randomId2=""
+for(let i =0;i<length;i++){
+    const randomChar=Math.floor(Math.random()*char.length)
+    randomId2 +=char.charAt(randomChar)
+
+}console.log(randomId2)
