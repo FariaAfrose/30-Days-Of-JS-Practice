@@ -72,7 +72,7 @@ const char2=prompt('Put charecters: ')
 const length=prompt('enter length ')
 let randomId2=""
 for(let i =0;i<length;i++){
-    const randomChar=Math.floor(Math.random()*char.length)
-    randomId2 +=char.charAt(randomChar)
+    const randomChar=Math.floor(Math.random()*char2.length)
+    randomId2 +=char2.charAt(randomChar)
 
 }console.log(randomId2)
