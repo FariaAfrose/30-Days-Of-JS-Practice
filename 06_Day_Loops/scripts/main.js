@@ -76,3 +76,9 @@ for(let i =0;i<length;i++){
     randomId2 +=char2.charAt(randomChar)
 
 }console.log(randomId2)
+
+//converting to hexadecimal num
+const input=prompt("Enter here: ")
+const randomNum=Math.floor(Math.random()*16777215)
+const convertToHexa= randomNum.toString(16)
+console.log(convertToHexa)
