@@ -91,5 +91,12 @@ console.log(uppercaseResult)
 //RGB color random
 const color=prompt("Enter color: ")
 //(using template literal)
-const randomColor=`rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)})`
+const randomColor=   `rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)})`
 console.log(randomColor)
+//creating an array for countrys length
+const arrayforCountry=[]
+ for(const variable of countries){
+    arrayforCountry.push(variable.length)
+ }
+ console.log(arrayforCountry)
+ //
