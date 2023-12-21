@@ -82,3 +82,14 @@ const input=prompt("Enter here: ")
 const randomNum=Math.floor(Math.random()*16777215)
 const convertToHexa= randomNum.toString(16)
 console.log(convertToHexa)
+// uppercasing the country
+const uppercaseResult=[]
+for(const country of countries){
+    uppercaseResult.push(country.toUpperCase())
+}
+console.log(uppercaseResult)
+//RGB color random
+const color=prompt("Enter color: ")
+//(using template literal)
+const randomColor=`rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)})`
+console.log(randomColor)
