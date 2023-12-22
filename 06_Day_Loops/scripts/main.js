@@ -103,3 +103,21 @@ const arrayforCountry=[]
 //  const findLand=[]
  const countrys= countries.filter(countries=>countries.includes('land'))
  console.log(countrys)
+ //end with "ia"
+ const cfindEnd=countries.filter(countries=>countries.endsWith('ia'))
+ if(cfindEnd.length>0){
+    console.log(cfindEnd)
+ }
+else{
+    console.log( `Those are countries ends without 'ia'`)
+}
+//biggerst number of charecters
+let longestcountry=''
+let  maxChar=0
+for(let i=0;i<countries.length;i++){
+   let currentCountry= countries[i].length
+if(currentCountry>maxChar){
+    maxChar=currentCountry
+    longestcountry=countries[i]
+}}
+console.log(longestcountry)
