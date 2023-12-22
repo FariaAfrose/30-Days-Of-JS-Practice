@@ -130,3 +130,20 @@ for(let i=fruit.length-1; i>=0;i--){
     // console.log(fruit[i])
 }
 console.log(reverseFruit)
+//2D array 
+const fullStack=[
+    ['HTML', 'CSS', 'JS', 'React'],
+    ['Node', 'Express', 'MongoDB']
+  ]
+  for (let i=0;i<fullStack.length;i++){
+    for(let j=0;j<fullStack[i].length;j++)
+    console.log(fullStack[i][j].toUpperCase())
+
+  }
+  //copy coutries array 
+  const originalArray= ["A","B","C","D"]
+  const copyArray=[]
+  for(let i=0;i<originalArray.length;i++){
+    copyArray.push(originalArray[i])
+  }    
+  console.log("copy array: "+copyArray)
