@@ -146,4 +146,7 @@ const fullStack=[
   for(let i=0;i<originalArray.length;i++){
     copyArray.push(originalArray[i])
   }    
+  copyArray.push("X")
   console.log("copy array: "+copyArray)
+//sort the copy array..
+//reversing  ,capitalizing and sort
