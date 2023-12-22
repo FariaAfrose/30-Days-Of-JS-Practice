@@ -116,8 +116,17 @@ let longestcountry=''
 let  maxChar=0
 for(let i=0;i<countries.length;i++){
    let currentCountry= countries[i].length
+//    console.log(currentCountry)
 if(currentCountry>maxChar){
     maxChar=currentCountry
     longestcountry=countries[i]
 }}
 console.log(longestcountry)
+// reverse the order using loop
+const fruit=['banana','orange','lemon','mango']
+const reverseFruit=[]
+for(let i=fruit.length-1; i>=0;i--){
+    reverseFruit.push(fruit[i])
+    // console.log(fruit[i])
+}
+console.log(reverseFruit)
