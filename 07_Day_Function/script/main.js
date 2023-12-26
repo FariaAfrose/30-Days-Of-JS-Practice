@@ -119,3 +119,16 @@ function swapValue(x,y){
     console.log(`x was 3- now ${x} , x was 4- now ${y} `)
     
     }
+//
+function userIdGenerator(nameHere){
+    newId=''
+    for(let i=0; i<nameHere.length;i++){
+    const randomNum=Math.floor(Math.random()*16777215)
+    const convertToHexa= randomNum.toString(16)
+    console.log(convertToHexa)
+
+}
+}
+const nameHere='akikai'
+userIdGenerator(nameHere)
+
