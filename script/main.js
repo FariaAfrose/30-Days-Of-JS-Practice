@@ -119,3 +119,29 @@ function swapValue(x,y){
     console.log(`x was 3- now ${x} , x was 4- now ${y} `)
     
     }
+//random hexa-> 7 char 
+function userIdGenerator(nameHere){
+    let  newId='';
+     for(let i=0; i<7;i++){
+     const randomNum=Math.floor(Math.random()*16);
+     const convertToHexa= randomNum.toString(16);
+     newId+=convertToHexa;
+ 
+ }
+ return newId
+ }
+ const nameHere='akikai'
+ console.log(userIdGenerator(nameHere));
+//reverse array
+function reversingArray(arr){
+  let  array=[]
+for(let i=arr.length-1; i>=0 ;i--){
+    array.push(arr[i])
+}
+console.log(array)
+
+}
+reversingArray(["A","B","C","D","E","F"])
+// 
+const input1= prompt("Enter number of  charaters:")
+const input2= prompt("Enter number of ids:")
