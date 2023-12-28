@@ -29,23 +29,43 @@ console.log(info)
 //finding 
  const users={alex:{
     email:"alex@.com",
-    skills:["Html",'css, "js'],
+    skills:["Html","css", "js"],
     age:20,
     points:34
  },kai:{
     email:"kai@.com",
-    skills:["phython","Html",'css, "js'],
+    skills:["phython","Html","css", "js"],
     age:22,
     points:30
  },lay:{
     email:"lay@.com",
-    skills:["Html",'css',"React"],
+    skills:["Html","css","React"],
     age:25,
     points:30
  },chen:{
     email:"chen@.com",
-    skills:["Html",'css, "js',"MangoBD"],
+    skills:["Html","css", "js","MangoBD","React"],
     age:21,
     points:36
  }
 }
+function findHighSkilled(userObject){
+    let maxSkill=0;
+    let personWithMaxSkill=null
+    for(const userName in userObject){
+      const   user=userObject[userName]
+        if(user.skills && user.skills.length > maxSkill ){
+         maxSkill= user.skills.length 
+         personWithMaxSkill=userName
+        }
+       
+    }return personWithMaxSkill
+    }
+    const foundIt=findHighSkilled(users)
+    if(foundIt){
+        console.log(`Highest skills: ${foundIt}`)
+    }
+    else{
+        console.log("No one found..")
+    
+    }
