@@ -26,12 +26,12 @@ console.log(dogName ,dogAge,dogLegs,dogColor)
 const info=dog.info()
 console.log(info)
 
-//finding 
+//finding SKILLS
  const users={alex:{
     email:"alex@.com",
     skills:["Html","css", "js"],
     age:20,
-    points:34
+    points:64
  },kai:{
     email:"kai@.com",
     skills:["phython","Html","css", "js"],
@@ -41,7 +41,7 @@ console.log(info)
     email:"lay@.com",
     skills:["Html","css","React"],
     age:25,
-    points:30
+    points:49
  },chen:{
     email:"chen@.com",
     skills:["Html","css", "js","MangoBD","React"],
@@ -61,6 +61,20 @@ function findHighSkilled(userObject){
        
     }return personWithMaxSkill
     }
+//Gratter then 50 points
+
+function greaterPoint(object){
+    let maxPoint=0
+let personWithMaxPoint=null
+for(const user in object ){
+    if(object[user].points >=50 && object[user].points >maxPoint){
+        maxPoint= object[user].points 
+        personWithMaxPoint=user
+        
+    }return personWithMaxPoint
+}}
+
+    const foundPoint=greaterPoint(users)
     const foundIt=findHighSkilled(users)
     if(foundIt){
         console.log(`Highest skills: ${foundIt}`)
@@ -69,3 +83,12 @@ function findHighSkilled(userObject){
         console.log("No one found..")
     
     }
+    if(foundPoint){
+        console.log(`Highest points: ${foundPoint}`)
+    }
+    else{
+        console.log("No highest point found..")
+    
+    }
+    
+
