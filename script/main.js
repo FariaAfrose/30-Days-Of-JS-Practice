@@ -142,6 +142,25 @@ console.log(array)
 
 }
 reversingArray(["A","B","C","D","E","F"])
+
 // 
-const input1= prompt("Enter number of  charaters:")
-const input2= prompt("Enter number of ids:")
+ function  granaretUserId(){
+const char= prompt("Enter number of  charaters:")
+const id = prompt("Enter number of ids:")
+
+const charecter="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmopqrstuvwxyz123456789"
+ 
+for(let i=0;i<id;i++){
+console.log(genarateId(Number(char),charecter))
+                      }     }
+
+function genarateId(char,charecter){
+    
+    let  newId='';
+    for(let i=0; i<char;i++){
+    const randomNum=Math.floor(Math.random()*charecter.length);
+    newId+=charecter.charAt(randomNum);
+
+}return newId
+}
+granaretUserId()
