@@ -164,3 +164,29 @@ function genarateId(char,charecter){
 }return newId
 }
 granaretUserId()
+// function for rgb color
+function rgbColorGenerator(){
+const red= Math.floor(Math.random()*256)
+const green= Math.floor(Math.random()*256)
+const blue= Math.floor(Math.random()*256)
+const passingColor=`rgb(${red},${green},${blue})`
+return passingColor
+}
+const randomColor=rgbColorGenerator()
+console.log(randomColor)
+//retun ay number of hexadecimal color
+const input=parseInt(prompt("Enter number of hexadecimal color: "))
+ function arrayOfRgbColor(input){
+    const arrayInput= []
+ for(let i=0;i<input;i++){
+    const hexadeimalColor='#'+ Math.floor(Math.random()*16777225).toString(16)
+    arrayInput.push(hexadeimalColor)
+ }
+ console.log(arrayInput)
+ return arrayInput
+ }
+
+ arrayOfRgbColor(input)
+
+
+//retun any number of RGB
