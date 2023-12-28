@@ -26,7 +26,7 @@ console.log(dogName ,dogAge,dogLegs,dogColor)
 const info=dog.info()
 console.log(info)
 
-//finding SKILLS
+//finding high skills
  const users={alex:{
     email:"alex@.com",
     skills:["Html","css", "js"],
@@ -74,7 +74,6 @@ for(const user in object ){
     }return personWithMaxPoint
 }}
 
-    const foundPoint=greaterPoint(users)
     const foundIt=findHighSkilled(users)
     if(foundIt){
         console.log(`Highest skills: ${foundIt}`)
@@ -83,6 +82,8 @@ for(const user in object ){
         console.log("No one found..")
     
     }
+    const foundPoint=greaterPoint(users)
+
     if(foundPoint){
         console.log(`Highest points: ${foundPoint}`)
     }
@@ -90,5 +91,13 @@ for(const user in object ){
         console.log("No highest point found..")
     
     }
-    
-
+    const updateUsers={...users}
+    updateUsers.me={
+    email:"back@.com",
+    skills:["Html","css", "js","React"],
+    age:25,
+    points:50
+}
+console.log( updateUsers)
+console.log(users)
+//seting my name without changing orginal object 
