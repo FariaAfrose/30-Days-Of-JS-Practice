@@ -143,7 +143,7 @@ console.log(array)
 }
 reversingArray(["A","B","C","D","E","F"])
 
-// 
+// id genarate 
  function  granaretUserId(){
 const char= prompt("Enter number of  charaters:")
 const id = prompt("Enter number of ids:")
