@@ -132,3 +132,35 @@ function userIdGenerator(nameHere){
  }
  const nameHere='akikai'
  console.log(userIdGenerator(nameHere));
+//reverse array
+function reversingArray(arr){
+  let  array=[]
+for(let i=arr.length-1; i>=0 ;i--){
+    array.push(arr[i])
+}
+console.log(array)
+
+}
+reversingArray(["A","B","C","D","E","F"])
+
+// id genarate...
+ function  granaretUserId(){
+const char= prompt("Enter number of  charaters:")
+const id = prompt(" Enter number of ids:")
+
+const charecter="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmopqrstuvwxyz123456789"
+ 
+for(let i=0;i<id;i++){
+console.log(genarateId(Number(char),charecter))
+                      }     }
+
+function genarateId(char,charecter){
+    
+    let  newId='';
+    for(let i=0; i<char;i++){
+    const randomNum=Math.floor(Math.random()*charecter.length);
+    newId+=charecter.charAt(randomNum);
+
+}return newId
+}
+granaretUserId()
