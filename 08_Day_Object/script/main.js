@@ -91,6 +91,8 @@ for(const user in object ){
         console.log("No highest point found..")
     
     }
+//seting my name without changing orginal object 
+
     const updateUsers={...users}
     updateUsers.me={
     email:"back@.com",
@@ -100,4 +102,39 @@ for(const user in object ){
 }
 console.log( updateUsers)
 console.log(users)
-//seting my name without changing orginal object 
+// taking user key
+
+const userKey=[]
+for( const userName in users){
+    const proppertyUser= users[userName]
+    userKey.push(userName)
+    //property
+    console.log(proppertyUser)
+
+}console.log(userKey)
+//key
+//taking values
+const valueOfObject = Object.values(users)
+console.log(valueOfObject)
+
+// findding spacefic country name
+const findCountries= countries.find(({name})=> name === "Angola")
+if(findCountries){
+    const countryName= findCountries.name
+    const countryCapital= findCountries.capital
+    const countryPopulations= findCountries.population
+    const countryLanguages= findCountries.languages
+
+console.log(countryName)
+console.log(countryCapital)
+console.log(countryPopulations)
+console.log(countryLanguages)
+ } 
+ else{
+    console.log("Don't find any..")
+     }
+ 
+//finding all country name
+
+const findAllCounty= countries.map(countries=> countries.name)
+console.log(findAllCounty)
