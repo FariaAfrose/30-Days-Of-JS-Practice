@@ -138,3 +138,50 @@ console.log(countryLanguages)
 
 const findAllCounty= countries.map(countries=> countries.name)
 console.log(findAllCounty)
+
+// creating object literal
+const personAcoount={
+    firstName:"kai",
+    lastName:"aki",
+    incomes:[],
+    expenses:[],
+    totalIncome:function(){
+      let  total=0
+        for(const  income of this.incomes){
+            total+=income.amount
+           
+        }
+        return  total
+    },
+    totalExpense:function(){
+      let  total=0
+        for(const  expense of this.expenses){
+            total+=expense.amount
+           
+        }
+        
+        return  total
+        
+    },
+    addIncome:function(discription,amount){
+        this.incomes.push({discription,amount})
+        console.log(discription ,amount)
+    },
+    
+    addExpense:function(discription,amount){
+        this.expenses.push({discription,amount})
+        console.log(discription ,amount)
+    },
+    accountInfo:function(){
+        console.log (this.firstName , this.lastName , this.totalIncome() , this.totalExpense(),this.accountBlanace())
+    },
+    accountBlanace:function(){
+        return  this.totalIncome() -this.totalExpense()
+    }
+   
+}
+personAcoount.addIncome("salary",10000)
+personAcoount.addExpense("product cost",6000)
+personAcoount.addIncome("part time job",5000)
+personAcoount.addExpense("shopping",4000)
+personAcoount.accountInfo()
