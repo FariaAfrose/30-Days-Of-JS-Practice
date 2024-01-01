@@ -40,6 +40,13 @@ console.log(concatanatE)
 //findIndex
 const finIndex=names.findIndex(names=>names.length<4)
 console.log(finIndex)
+//sorting
+console.log(names.sort())
 //Sort countries by name, by capital, by population
+ const num=[3.21, 9.25, 100,37]
+ num.sort(function(a,b){
+    return a-b
+ })
+ console.log(num)
 //Find the 10 most spoken languages
 //create a function which create the ten most populated countries
