@@ -32,12 +32,14 @@ console.log(letetrFind)
 const sum=numbers.reduce((acc,cur)=>acc+cur,0)
 console.log(sum)
 //reduce to concatenate all the countries 
-const concatanatE=countrie.reduce((acc,cur)=>acc+cur)
+const concatanatE=countrie.reduce((acc,cur)=>acc+cur.name)
 console.log(concatanatE)
 //some
 //every
 //find
 //findIndex
+const finIndex=names.findIndex(names=>names.length<4)
+console.log(finIndex)
 //Sort countries by name, by capital, by population
 //Find the 10 most spoken languages
 //create a function which create the ten most populated countries
