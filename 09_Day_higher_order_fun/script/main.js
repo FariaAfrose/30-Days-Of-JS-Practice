@@ -48,5 +48,16 @@ console.log(names.sort())
     return a-b
  })
  console.log(num)
+ //get first 10 countrys
+ function getFirstTenCOuntry(){
+    return countries.slice(0,10)
+ }
+ console.log(getFirstTenCOuntry())
+ //get last 10 countrys
+ function getLastTenCOuntry(){
+    return countries.slice(-10)
+ }
+ console.log(getLastTenCOuntry())
 //Find the 10 most spoken languages
+
 //create a function which create the ten most populated countries
