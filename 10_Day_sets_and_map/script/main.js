@@ -18,6 +18,8 @@ for(let i=0; i<=10;i++){
 }
 console.log(createSet)
 
+
+
 // Remove an element from a set
 // Clear a set
 // Create a set of 5 string elements from array
