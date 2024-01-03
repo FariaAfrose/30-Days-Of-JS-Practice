@@ -4,6 +4,7 @@
 // create an empty set
 const a=[4,5,8,9]
 const b=[3,4,5,7]
+
 const emptySet=new Set()
 console.log(emptySet)
 // console.log(b)
@@ -18,11 +19,16 @@ for(let i=0; i<=10;i++){
 }
 console.log(createSet)
 
-
-
 // Remove an element from a set
+  createSet.delete(4)
+  console.log(createSet)
 // Clear a set
+createSet.clear()
+console.log(createSet)
 // Create a set of 5 string elements from array
+const creatingArray=["a","b","c","d","d","e","f"]
+const creatingSet= new Set(creatingArray.slice(0,5))
+console.log(creatingSet)
 // Create a map of countries and number of characters of a country
 
 //Exercises:Level 2
