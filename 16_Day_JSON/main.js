@@ -22,6 +22,25 @@ const studentsUpdate=JSON.stringify(students)
 console.log(studentsUpdate)
 //Stringify the students object with only firstName, lastName and skills properties
 // Exercises Lev
+const studentsObj=[
+    {
+        firstName:"Loye",
+        lastName:"backhum",
+        skills:['Js',"react",'angular' ,'Html']
+ },
+    {
+        firstName:"AKi",
+        lastName:"chen",
+        skills:["react",'angular' ,'Html']
+ }
+   , {
+        firstName:"KAi",
+        lastName:"loye",
+        skills:['Js',"react",'Html']
+ }
+]
+const studentsObjUp =JSON.stringify(studentsObj,["firstName",'lastName','skills'],4)
+console.log(studentsObjUp)
 
 
 //Parse the txt JSON to object.
