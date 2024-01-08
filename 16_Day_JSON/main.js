@@ -39,9 +39,26 @@ const studentsObj=[
         skills:['Js',"react",'Html']
  }
 ]
+//js object ka json convet-> stringify
 const studentsObjUp =JSON.stringify(studentsObj,["firstName",'lastName','skills'],4)
 console.log(studentsObjUp)
 
 
-//Parse the txt JSON to object.
+// Parse the txt JSON to object.
+
+//Json string yo valid js object -JSON.parse
+const parseinG=JSON.parse(studentsObjUp)
+console.log(parseinG)
+
 // Find the user who has many skills from the variable stored in txt.
+let maxSkills=0
+let userWithmaxSkills= null
+for (const user of  parseinG){
+    const countSkill=user.skills.length
+    if(countSkill>maxSkills){
+        maxSkills= countSkill
+        userWithmaxSkills=user
+}
+
+}
+console.log(userWithmaxSkills)
