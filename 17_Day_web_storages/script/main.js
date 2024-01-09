@@ -36,39 +36,44 @@ console.log(skills)
 const personAccount2={
     firstName:"Jon",
     lastName:"Lyep",
-    income:new Set(),
-    expenses:new Set(),
+   
+    income:[],
+    expenses:[],
+    totalIncome:0,
+    totalExpense:0,
+    totalBalance:0,
+
     
     // methods addIncome
 addIncome:function (discription,amount){
-    this.income.add({discription,amount})
+    this.income.push({discription,amount})
+    this.calTotalIncome()
     this.accountBalance()
 },
 // methods addExpense 
 addExpense:function (discription,amount){
-    this.expenses.add({discription,amount})
+    this.expenses.push({discription,amount})
+    this.calTotalExpense()
     this.accountBalance()
 },
 // methods totalIncome
-totalIncome:function (){
+calTotalIncome:function (){
     this.totalIncome=[...this.income].reduce((sum,income)=>sum + income.amount, 0)
-    this.accountInfo()
 },
 // methods totalExpense
-totalExpense:function (){
+calTotalExpense:function (){
     this.totalExpense=[...this.expenses].reduce((sum,expenses)=>sum + expenses.amount, 0)
-    this.accountInfo()
 },
 
 
 // methods accountBalance  
 accountBalance:function (){
     this.totalBalance=  this.totalIncome - this.totalExpense
-    this.accountInfo()},
+},
 
 // methods accountInfo
 accountInfo:function (){
-    console.log(`Information ${this.firstName} ${this.lastName}`)
+    console.log(`Information: ${this.firstName} ${this.lastName}`)
     console.log(`Total Income ${this.totalIncome}`)
     console.log(`Total Expense ${this.totalExpense} `)
     console.log(`Total Balance ${this.totalBalance} `)
@@ -79,3 +84,4 @@ personAccount2.addIncome("Salary",10000)
 personAccount2.addIncome("Parttimejob",5000)
 personAccount2.addExpense("Product ",1000)
 personAccount2.addExpense("Bill",100)
+personAccount2.accountInfo()
