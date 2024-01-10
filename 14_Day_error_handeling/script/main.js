@@ -24,8 +24,7 @@ try{
     console.log("I will must execute ")
     }
 //3.throw
-let pretentJson={'age':30}
-
+let pretentJson='{ "name":"josh" ,"age":30}'
 try{
     let data=JSON.parse(pretentJson)
     if(!data.name){
