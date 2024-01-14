@@ -1,0 +1,34 @@
+#wrapper{
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+#domP{
+    text-align: center;
+  
+    width: 200px;
+}
+
+h4{
+    display: inline-block;
+    padding: 5px;
+
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+
+}
+.completed{
+    background-color: #5BBC7A;
+}
+.ongoing{
+    background-color: #F7DC5C;
+}
+.coming{
+    background-color: #EB695B;
+}
