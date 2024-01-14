@@ -56,8 +56,9 @@ document.addEventListener("DOMContentLoaded",()=>{
 const div=document.getElementById('wrapper')
 const year=div.querySelector(' h1 span')
 year.style.fontSize="60px"
-const challange=div.querySelector('li')
 const dateAndTime=document.getElementById('addHeader')
+const challanges=div.querySelector('li')
+
 function timeAndDate(){
 const currentDate=new Date()
 const date=currentDate.toDateString()
@@ -77,7 +78,7 @@ setInterval(()=>{
 
 },1000)
 
-challange.forEach(challange=>{
+Array.from(challanges).forEach(challange=>{
     const findStatus=challange.textContent.split('').pop().toLowerCase()
 switch(findStatus){
     case 'done':
