@@ -1,0 +1,111 @@
+body{
+ 
+display: grid;
+margin: 0;
+place-items: center;  
+height: 250vh;
+}
+
+#container {
+display: grid;
+grid-template-columns: repeat(6,1fr);
+gap: 1px;
+height: 700px ;
+margin-bottom: 20px;
+
+
+}
+.number{
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 60px;
+    height: 35px;
+  align-items: center;   
+  justify-content: center;
+  display: flex;
+}
+#countryContainer{
+display: grid;
+grid-template-columns: repeat(6,1fr);
+gap: 1px;
+height: 30px ;
+margin-bottom: 2700px;
+
+}
+.countries{
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 90px;
+    height: 80px;
+  align-items: center;   
+  justify-content: center;
+  display: flex;
+  border-radius: 3px;
+  margin: 1px;
+}
+
+#wrapper{
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+}
+
+
+h4{
+  display: inline-block;
+  padding: 5px;
+
+}
+ul{
+  padding: 0;
+  list-style: none;
+}
+li{
+  list-style: none;
+  padding: 25px;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+
+/* another part */
+#anotherPart{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  /* background-color: blue; */
+}
+
+.divTSQ{
+display: flex;
+justify-content: center;
+padding: 1px;
+
+}
+
+.list {
+margin-bottom: 20px;
+/* text-align: justify; */
+}
+.list h3 {
+  margin-bottom: 20px;}
+.list > div {
+  margin-bottom: 20px;
+}
+#hashTag{
+  display: grid;
+  padding: 25px;
+  margin: 10px;
+  grid-template-columns: repeat(6,1fr);
+  place-items: start;  
+
+}
+#hashTag p{
+  padding: 7px;
+  margin:  5px 0;
+  /* background-color: rgb(174, 201, 21); */
+  border-radius: 15px;
+  width: auto;
+text-align: center;
+}
