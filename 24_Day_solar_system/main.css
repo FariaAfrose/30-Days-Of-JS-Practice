@@ -1,0 +1,46 @@
+body{
+ 
+    display: grid;
+    margin: 0;
+    place-items: center;  
+    height: 50vh;
+    }
+    
+    #container {
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    gap: 5px;
+    height: 120px ;
+    margin-bottom: 20px;
+    
+    
+    
+    }
+    .number{
+        border: 1px solid #ccc;
+        text-align: center;
+        width: 60px;
+        height: 35px;
+      align-items: center;   
+      justify-content: center;
+      display: flex;
+    }
+ #numDIv{
+    display: flex;
+ }
+ #buttonid{
+    background-color: #90EE90;
+    border-radius: 5px;
+    border-color: #90EE90;
+    margin: 5px;
+    padding: 10px;
+ }
+ #numbrInput{
+    width: 550px;
+    height: 15px;
+    margin: 5px;
+    padding: 10px;
+    border-color:   #90EE90;
+
+ }
+ 
