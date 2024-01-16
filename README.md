@@ -9,4 +9,6 @@
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/31f5c642-d204-40b8-83f4-980047fa730c)
 30DaysOfJavaScript:Day Event listeners2
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/cec25cd2-891a-4735-9592-0e01250ed5ae)
+![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/a7885370-995e-49ca-8ed1-319696449cb5)
+![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/af1af226-a625-435f-b6a7-7645e803d46b)
 
