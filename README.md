@@ -8,5 +8,5 @@
 30DaysOfJavaScript:Day Event listeners1
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/31f5c642-d204-40b8-83f4-980047fa730c)
 30DaysOfJavaScript:Day Event listeners2
-![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/a1f9bfca-4732-4f00-ad47-cd08a63b4293)
+![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/cec25cd2-891a-4735-9592-0e01250ed5ae)
 
