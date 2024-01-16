@@ -5,6 +5,8 @@
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/1e64ab17-1892-40d5-b5ec-a746f3e2737a)
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/de3d8388-725e-4b87-9eb4-739759b0aee9)
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/79fb286b-745f-4046-a0dc-9109ae851b04)
-30DaysOfJavaScript:Day Event listeners
+30DaysOfJavaScript:Day Event listeners1
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/31f5c642-d204-40b8-83f4-980047fa730c)
+30DaysOfJavaScript:Day Event listeners2
+![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/a1f9bfca-4732-4f00-ad47-cd08a63b4293)
 
