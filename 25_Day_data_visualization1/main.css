@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.subtitle{
+
+}
+.feedback{
+}
+.wrapper{
+
+}
+.graph-buttons{
+background-color: rgb(255, 255, 255);
+padding: 1px;
+border-radius: 5px;
+box-shadow: 0 1px 4px 2px rgba(0,0,0,0.1);
+transition: box-shadow 0.3 ease;
+}
+#population{
+    margin-top: 20px;
+    background-color:#F2A93B ;
+border: none;
+width: 150px;
+height: 30px;
+font-size: 12px;
+
+}
+#language{
+    margin-top: 20px;
+    background-color:#F2A93B ;
+border: none;
+width: 150px;
+height: 30px;
+font-size: 12px;
+
+}
+.graph-title{
+text-decoration: none;
+}
+ul{
+    text-decoration: none;
+
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    height: 60vh;
+    margin-top: 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+   
+}
+.countryPopulation{
+    text-align: right;
+    margin: 20px;
+
+}
+.countryName{
+    text-align: left;
+    margin: 20px;
+    margin-left:250px ;
+
+}
+.graphs{
+    text-align: center;
+    margin: 20px;
+    /* margin-left:250px ; */
+}
+.graph-wrapper{
+/* width: 100px;
+text-align: right;
+padding-right: 10px;
+font-weight: bold; */
+}
+
+#stat{
+
+}
+
+.progress-bar {
+    height: 10px; /* Adjust height as needed */
+    background-color: blue; /* Adjust color as desired */
+  }
+  
