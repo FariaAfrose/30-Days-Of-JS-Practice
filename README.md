@@ -12,5 +12,6 @@
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/a7885370-995e-49ca-8ed1-319696449cb5)
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/af1af226-a625-435f-b6a7-7645e803d46b)
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/904867c9-09fe-4094-9e5d-be20b265acdd)
+![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/0c091e78-db1b-4505-844b-aa09730aa4f8)
 
 
