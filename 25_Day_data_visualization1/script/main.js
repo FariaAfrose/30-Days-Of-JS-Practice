@@ -24,31 +24,44 @@ function Language(){
 }
 const populatedCountries=Population(countries_data)
 const nameAndPopulation = populatedCountries.map(country => ({ name: country.name, population: country.population }));
-// const makingUl=document.createElement('ul')
+const countryDiv=document.querySelector('.container')
+populationB.addEventListener('click', function () {
 
-populationB.addEventListener('click',function(){
-    // container.innerHTML= ""
-    const countryDiv=document.querySelector('.container')
-    const div1=document.createElement('div')
-    div1.classList='div1'
-    const div2=document.createElement('div')
-    div2.classList='div2'
-    nameAndPopulation.forEach(country=>{
+const maxPopulation=Math.max(...nameAndPopulation.map(country=>country.population))
+    const divPairContainer = document.createElement('div');
+    divPairContainer.classList = 'container';
+
+    nameAndPopulation.forEach((country, index) => {
+        const divPair=document.createElement('div')
+        divPair.classList='div-pair'
+
         const countryName=document.createElement('div')
-        const countryPopulation=document.createElement('div')
         countryName.classList.add('countryName')
-        countryPopulation.classList.add('countryPopulation')
+        countryName.textContent = country.name;
 
-        
+        const progressbarContainer = document.createElement('div');
+        progressbarContainer.classList = 'progressbarContainer';
+        const progressbar = document.createElement('div');
+        progressbar.classList = 'progress-bar';
 
-        countryName.textContent=`${country.name} `
-        countryPopulation.textContent=`${country.population} `
-        div1.appendChild(countryName)
-        div2.appendChild(countryPopulation)
-       
-    })
-    countryDiv.appendChild(div1)
-    countryDiv.appendChild(div2)
+        const countryPopulation=document.createElement('div')
+         countryPopulation.classList.add('countryPopulation')
+          countryPopulation.textContent = country.population;
+const widthPercentage=(country.population/maxPopulation)*100
+progressbar.style.width=`${widthPercentage}%`
 
-})
+        divPair.appendChild(countryName);
+        progressbarContainer.appendChild(progressbar);
+        divPair.appendChild(progressbarContainer);
+        divPair.appendChild(countryPopulation);
 
+        divPairContainer.appendChild(divPair)
+    });
+
+    countryDiv.innerHTML= ""
+    countryDiv.appendChild(divPairContainer)
+});
+
+
+
+ 
