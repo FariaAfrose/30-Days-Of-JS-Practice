@@ -13,7 +13,7 @@
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/af1af226-a625-435f-b6a7-7645e803d46b)
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/904867c9-09fe-4094-9e5d-be20b265acdd)
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/0c091e78-db1b-4505-844b-aa09730aa4f8)
-
+![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/0ff8eec4-110f-49b5-ac91-6d452af1b664)
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/b3b94751-3484-481d-9d9c-900c46c20ac7)
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/50b14d90-d0f8-4ea0-85f5-ecd6374cdbe7)
 ![image](https://github.com/FariaAfrose/30-Days-Of-JS-Practice/assets/154304357/1bdeaee8-d669-48ec-beae-491f790a6851)
