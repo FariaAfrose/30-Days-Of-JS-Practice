@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+ <title>30DaysJavascript: 30 day </title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+ <!-- <link rel="stylesheet" href="./main2.css" /> -->
+ <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+<section id="firstSection">
+    <header>
+        <div id="headerDiv">
+        <h1>WORLD COUNTRIES LIST</h1>
+        <p id="numberOfcountries"></p>
+        <p id="startWith"></p>
+        </div>
+    
+    <div>
+    <div>
+        <input type="text"  id="searchInput" placeholder="Search country name, capital ,population..">
+    </div>
+    </div>
+    <div>
+        <button id="name" >NAME</button>
+        <button id="capital">CAPITAL</button>
+        <button id="population"> POPULATION</button>
+        <i id="graph" class="fa fa-bar-chart" style="font-size:35px; color:#F2A93B" onclick="graphFunction()"></i>
+     </div>
+    </header> 
+    <main>
+        <div id="cardContent"></div>
+           
+    </main>
+    
+</section>
+
+
+<section id="newDIv" class="scroll-target">
+    
+        <div class="wrapper"> 
+            <h2>World Countries Date</h2>
+            <div class="graph-buttons">
+             <button id="population" onclick="Population()">POPULATION</button>
+<button id="language" onclick="Language()">LANGUAGES</button>
+                <p class="feedback"></p>
+    
+            </div>
+           <div class="container">
+           </div>
+            
+        </div>
+    
+        
+</section>
+    <!-- <script src="./script/main2.js"></script> -->
+    <script src="./script/main.js"></script>
+</body>
+</html>
+
