@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-image:url('./image/globe-2\ \(1\).jpg') ;
+  padding: 20px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  
+}
+#numberOfcounterys{
+  color: white;
+}
+#stratwith{
+  color:white ;
+}
+
+h1{
+  margin: 0;
+  color: aliceblue;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+input{
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  border-radius: 20px;
+  border: 1px solid blue;
+}
+
+#card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  background-color: #985bf9;
+}
+#cardContent{
+  display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+text-align: center;}
+.country-card{
+  background-image: url('./image/map_image.jpg');
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  opacity: 0.7;
+}
+button{
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color:#985bf9 ;
+  color: white;
+  /* # */
+}
+#searchWithAnyWord{
+  background-color:#581CB8 ;
+
+}
+#startingWord{
+  background-color:#985bf9 ;
+
+}
+#upDownArrow{
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  border: none; 
+ font-size: 15px;
+}
+#searchIcon{
+  color: white;
+}
