@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.leaderboard{
+    text-align: center;
+}
+.input-container{
+    margin-bottom: 200px;
+    
+}
+.player-actions{
+    display: flex;
+    gap: 10px;
+}
+.player-card{
+    display: flex;
+    justify-content: space-between;
+    margin:100px ;
+    padding: 10px;
+    background-color: #E5C9C5;
+    border: 1px solid #ddd;
+    height: 50px;
+    align-items: center;
+}
+
+input{
+    height: 25px;
+    border: 2px solid #E5C9C5;
+    border-radius: 5px;
+}
+#addPlayer{
+    background-color:#E5C9C5 ;
+    border-radius: 5px;
+    height: 27px;
+    border: none;
+
+}
+
+
+.decreaseButtonID{
+    border: none;
+    border-radius: 80%;
+    height: 40px;
+width: 40px;
+background-color: white;
+}
+.increaseButton{
+    border: none;
+    border-radius: 80%;
+    height: 40px;
+width: 40px;
+background-color: white;
+}
+.deleteButton{
+    border: none;
+    border-radius: 80%;
+    height: 40px;
+width: 40px;
+background-color: white;
+}
