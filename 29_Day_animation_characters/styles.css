@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    border:17px solid #fff;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #3498db;
+    transition: background-color 1s ease-in-out;
+}
+
+#changingText {
+    font-size: 5em;
+    color: #fff; 
+    transition: color 1s ease-in-out;
+}
