@@ -4,14 +4,7 @@ body{
     text-align: center;
 }
 
-.subtitle{
 
-}
-.feedback{
-}
-.wrapper{
-
-}
 .graph-buttons{
 background-color: rgb(255, 255, 255);
 padding: 1px;
@@ -40,50 +33,40 @@ font-size: 12px;
 .graph-title{
 text-decoration: none;
 }
-ul{
-    text-decoration: none;
 
-}
 .container{
-    width: 90%;
-    max-width: 1200px;
     height: 60vh;
-    margin-top: 20px;
-    background-color: #ffffff;
-    display: flex;
     justify-content: space-between;
     font-size: 20px;
-   
-}
-.countryPopulation{
-    text-align: right;
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
 
 }
-.countryName{
-    text-align: left;
-    margin: 20px;
-    margin-left:250px ;
 
-}
-.graphs{
-    text-align: center;
-    margin: 20px;
-    /* margin-left:250px ; */
-}
-.graph-wrapper{
-/* width: 100px;
-text-align: right;
-padding-right: 10px;
-font-weight: bold; */
+.div-pair{
+    display: flex;
+align-items: center;
+margin-bottom: 10px;
 }
 
-#stat{
-
+.countryName {
+    flex: 1;
 }
 
 .progress-bar {
-    height: 10px; /* Adjust height as needed */
-    background-color: blue; /* Adjust color as desired */
-  }
+    flex: 3; 
+    height: 30px;
+    margin: 0 10px; 
+    background-color:#F2A93B ;
+    transition: width 0.5s ease; 
+}
+.progressbarContainer{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
+.countryPopulation {
+    flex: 1;
+}
+
+
   
